@@ -1,22 +1,21 @@
-# Land Price Prediction using Logistic Regression
+# Land Price Prediction using Linear Regression
 
-**Problem Type:** Classification  
-**Objective:** Predict land price category based on input features
+**Problem Type:** Regression  
+**Dataset:** Land Price Dataset (e.g., location, area, and other features)
 
 ## Project Overview
-This project aims to predict land price categories (such as high, medium, or
-low) using Logistic Regression. The model classifies land prices based on
-various features related to location, size, and other relevant attributes.
+This project focuses on predicting land prices based on various features
+such as location, area, and other relevant attributes. A Linear Regression
+model is used to learn the relationship between input features and land prices.
 
 ## Approach
 - Loaded and explored the land price dataset
 - Performed data preprocessing and feature scaling
-- Converted price values into categorical labels
-- Trained a Logistic Regression classifier
-- Evaluated the model using classification metrics
+- Trained a Linear Regression model
+- Evaluated model performance using regression metrics
 
 ## Algorithm Used
-- Logistic Regression
+- Linear Regression
 
 ## Tools & Libraries
 - Python
@@ -26,10 +25,9 @@ various features related to location, size, and other relevant attributes.
 - Matplotlib / Seaborn
 
 ## Results
-The Logistic Regression model is able to classify land prices into categories
-with reasonable accuracy, serving as a simple and effective baseline model.
+The Linear Regression model provides a baseline prediction for land prices
+and demonstrates the relationship between input features and price.
 
 ## Notes
-This project is intended as a beginner-level classification task to understand
-logistic regression and its application in real-world price classification
-problems.
+This project is intended as a beginner-level regression task to understand
+supervised learning and linear regression.
