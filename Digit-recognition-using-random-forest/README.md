@@ -1,4 +1,4 @@
-#Digit recommendation 
+
 # Digit Recognition using Random Forest
 
 **Problem Type:** Multi-class Classification  
