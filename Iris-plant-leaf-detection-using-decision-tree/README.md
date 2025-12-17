@@ -1,4 +1,4 @@
-# Iris Leaf Detection using Naive Bayes
+# Iris Leaf Detection using Decision Tree
 
 **Problem Type:** Multi-class Classification  
 **Dataset:** Iris Flower Dataset
@@ -6,16 +6,16 @@
 ## Project Overview
 This project focuses on classifying iris flowers into three species
 (Setosa, Versicolor, and Virginica) based on leaf (sepal and petal)
-measurements. A Naive Bayes classifier is used to perform the classification.
+measurements. A Decision Tree classifier is used to perform the classification.
 
 ## Approach
 - Loaded and explored the Iris dataset
 - Performed data preprocessing and feature analysis
-- Trained a Naive Bayes classifier
-- Evaluated the model using classification metrics
+- Trained a Decision Tree classifier
+- Visualized and evaluated model performance
 
 ## Algorithm Used
-- Naive Bayes (Gaussian Naive Bayes)
+- Decision Tree Classifier
 
 ## Tools & Libraries
 - Python
@@ -25,9 +25,9 @@ measurements. A Naive Bayes classifier is used to perform the classification.
 - Matplotlib / Seaborn
 
 ## Results
-The Naive Bayes model is able to classify iris species effectively and achieves
-good accuracy on the dataset.
+The Decision Tree model is able to classify iris species effectively and
+provides interpretable decision rules for classification.
 
 ## Notes
 This project is a beginner-level implementation designed to understand
-probabilistic classification using the Naive Bayes algorithm.
+tree-based learning and decision-making in machine learning.
